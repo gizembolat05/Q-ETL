@@ -4,8 +4,8 @@ import shutil
 
 
 print("Dag Oluşturma")
-dag_directory = "C:/Users/tugcei/Desktop/STORAGE-DAG/dags"
-template_directory = "C:/Users/tugcei/Desktop/STORAGE-DAG/template"
+dag_directory = "C:/Users/gizemb/Desktop/STORAGE-DAG/dags"
+template_directory = "C:/Users/gizemb/Desktop/STORAGE-DAG/template"
 
 def get_user_inputs():
     dag_name = input("DAG adını girin: ").strip()
@@ -77,8 +77,8 @@ def update_dag_code(dag_code, dag_name, table_name, command_line, is_parallel, d
     return dag_code
 
 def main():
-    dag_directory = "C:/Users/tugcei/Desktop/STORAGE-DAG/dags"
-    template_directory = "C:/Users/tugcei/Desktop/STORAGE-DAG/template"
+    dag_directory = "C:/Users/gizemb/Desktop/STORAGE-DAG/dags"
+    template_directory = "C:/Users/gizemb/Desktop/STORAGE-DAG/template"
 
     try:
         print("Dag Oluşturma")
